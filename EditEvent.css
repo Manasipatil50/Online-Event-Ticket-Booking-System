@@ -1,0 +1,70 @@
+.edit-event-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.edit-event-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.edit-event-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-event-form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.edit-event-form input,
+.edit-event-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.edit-event-form input:focus,
+.edit-event-form textarea:focus {
+  border-color: #4caf50;
+}
+
+.edit-event-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.btn.update {
+  margin-top: 15px;
+  padding: 12px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.2s ease;
+}
+
+.btn.update:hover {
+  background: #45a049;
+}
+
+/* Style the file input to match the form */
+.edit-event-form input[type="file"] {
+  padding: 5px;
+  border: none;
+  font-size: 0.9rem;
+} 

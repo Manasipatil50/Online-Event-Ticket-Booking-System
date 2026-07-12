@@ -1,0 +1,109 @@
+.event-booking-page {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.event-types {
+  margin-bottom: 20px;
+}
+
+.event-types button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.event-types button.active,
+.event-types button:hover {
+  background-color: #2980b9;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.event-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 15px;
+}
+
+.event-info h3 {
+  margin: 0 0 10px;
+  color: #2c3e50;
+}
+
+.event-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.services {
+  margin-top: 10px;
+}
+
+.services label {
+  display: block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.event-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-btn:hover {
+  background-color: #1e8449;
+}
+
+.wishlist-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.wishlist-btn.active {
+  background-color: #c0392b;
+} 

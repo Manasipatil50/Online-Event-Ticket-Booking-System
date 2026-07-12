@@ -1,0 +1,12 @@
+.layout{
+display:flex;
+}
+
+.content{
+margin-left:230px;
+padding:30px;
+width:100%;
+  background: #9e71ff; /* dark navy / pro look */
+min-height:100vh;
+color:white;
+}

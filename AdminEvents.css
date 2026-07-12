@@ -1,0 +1,48 @@
+/* src/pages/AdminEvents.css */
+.admin-events-page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.search-box {
+  width: 300px;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  color: #555;
+} 

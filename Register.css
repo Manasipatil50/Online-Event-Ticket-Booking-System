@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Poppins",sans-serif;
+}
+
+/* BACKGROUND (less dark) */
+
+.register-page{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  background: linear-gradient(135deg,#6d28d9,#a855f7,#f472b6);
+}
+
+/* CARD */
+
+.register-card{
+  width:360px;
+  padding:30px;
+  border-radius:20px;
+
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(20px);
+
+  color:white;
+  box-shadow:0 15px 40px rgba(0,0,0,0.3);
+
+  text-align:center;
+}
+
+/* TITLE */
+
+.register-card h2{
+  margin-bottom:20px;
+}
+
+/* INPUT */
+
+.register-card input,
+.register-card select{
+  width:100%;
+  padding:12px;
+  margin-bottom:12px;
+
+  border-radius:10px;
+  border:none;
+
+  background: rgba(255,255,255,0.25);
+  color:white;
+  outline:none;
+}
+
+.register-card input::placeholder{
+  color:#eee;
+}
+
+/* BUTTON */
+
+.register-card button{
+  width:100%;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+
+  background: linear-gradient(45deg,#9333ea,#ec4899);
+  color:white;
+
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.register-card button:hover{
+  transform: translateY(-2px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* ERROR */
+
+.error{
+  color:#ffe4e6;
+  font-size:12px;
+  margin-top:-8px;
+  margin-bottom:10px;
+  text-align:left;
+}
+
+/* LOGIN TEXT */
+
+.register-card p{
+  margin-top:15px;
+  font-size:14px;
+}
+
+.register-card span{
+  color:#fbcfe8;
+  cursor:pointer;
+} 

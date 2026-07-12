@@ -1,0 +1,32 @@
+.sidebar{
+width:230px;
+height:100vh;
+  background: #9e71ff; /* dark navy / pro look */
+color:white;
+padding:25px;
+display:flex;
+flex-direction:column;
+position:fixed;
+left:0;
+top:0;
+}
+
+.logo{
+font-size:24px;
+margin-bottom:40px;
+font-weight:bold;
+}
+
+.sidebar a{
+color:white;
+text-decoration:none;
+margin:12px 0;
+padding:10px;
+border-radius:8px;
+transition:0.3s;
+}
+
+.sidebar a:hover{
+background:rgba(255,255,255,0.2);
+padding-left:15px;
+}
